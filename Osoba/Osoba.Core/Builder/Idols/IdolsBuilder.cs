@@ -6,19 +6,6 @@ using System.Threading.Tasks;
 
 namespace Osoba.Core.Builder.Idols
 {
-    //public abstract class IdolsBuilder
-    //{
-    //    public abstract void SetName();
-    //    public abstract void SetHead();
-    //    public abstract void SetTops();
-    //    public abstract void SetBottoms();
-    //    public abstract void SetShoes();
-    //    public abstract void SetAccessory();
-    //    public abstract void SetHp();
-    //    public abstract void SetMp();
-    //    public abstract void SetSp();
-    //    public abstract Idols GetIdol();
-    //}
     public interface IdolsBuilder
     {
         void SetName();
