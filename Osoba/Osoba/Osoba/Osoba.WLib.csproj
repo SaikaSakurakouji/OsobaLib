@@ -7,8 +7,8 @@
     <ProjectGuid>{D275C244-5246-44C8-93D5-9323AAE2CD53}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Osoba.WLib</RootNamespace>
-    <AssemblyName>Osoba.WLib</AssemblyName>
+    <RootNamespace>Osoba</RootNamespace>
+    <AssemblyName>Osoba</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
