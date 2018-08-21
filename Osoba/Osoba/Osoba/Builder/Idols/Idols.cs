@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Osoba.Core.Builder.Idols
+namespace Osoba.Builder.Idols
 {
     public class Idols
     {
