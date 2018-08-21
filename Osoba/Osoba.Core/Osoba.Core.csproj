@@ -34,7 +34,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Builder\Idols\CoolIdolBuilder.cs" />
+    <Compile Include="Builder\Idols\CuteIdolBuilder.cs" />
+    <Compile Include="Builder\Idols\Idols.cs" />
+    <Compile Include="Builder\Idols\IdolsBuilder.cs" />
+    <Compile Include="Builder\Idols\IdolsDirector.cs" />
+    <Compile Include="Builder\Idols\IdolCategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -54,6 +59,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
