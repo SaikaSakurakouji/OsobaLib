@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Osoba.Core", "Osoba.Core\Osoba.Core.csproj", "{1AF092D3-90AF-4B69-ADE3-FF77EE19E35F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Osoba.Android", "Osoba.Android\Osoba.Android.csproj", "{62427EC3-0658-4434-BD9A-E87DDE6A71DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Osoba.iOS", "Osoba.iOS\Osoba.iOS.csproj", "{1EBC4CD5-37EE-4E47-93C1-D13588D5394B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Osoba.Console", "Osoba.Console\Osoba.Console.csproj", "{FBCA6E68-762C-477D-9BA0-3F7C02D68585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Osoba.UnitTest", "Osoba.UnitTest\Osoba.UnitTest.csproj", "{684D354E-C99D-4787-9B9F-13BF3D123992}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF092D3-90AF-4B69-ADE3-FF77EE19E35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF092D3-90AF-4B69-ADE3-FF77EE19E35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF092D3-90AF-4B69-ADE3-FF77EE19E35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF092D3-90AF-4B69-ADE3-FF77EE19E35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62427EC3-0658-4434-BD9A-E87DDE6A71DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62427EC3-0658-4434-BD9A-E87DDE6A71DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62427EC3-0658-4434-BD9A-E87DDE6A71DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62427EC3-0658-4434-BD9A-E87DDE6A71DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBC4CD5-37EE-4E47-93C1-D13588D5394B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBC4CD5-37EE-4E47-93C1-D13588D5394B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBC4CD5-37EE-4E47-93C1-D13588D5394B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBC4CD5-37EE-4E47-93C1-D13588D5394B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBCA6E68-762C-477D-9BA0-3F7C02D68585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCA6E68-762C-477D-9BA0-3F7C02D68585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCA6E68-762C-477D-9BA0-3F7C02D68585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCA6E68-762C-477D-9BA0-3F7C02D68585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684D354E-C99D-4787-9B9F-13BF3D123992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684D354E-C99D-4787-9B9F-13BF3D123992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684D354E-C99D-4787-9B9F-13BF3D123992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684D354E-C99D-4787-9B9F-13BF3D123992}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
