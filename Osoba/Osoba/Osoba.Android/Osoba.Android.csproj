@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B4EC04F1-B101-4030-A435-00DE87E87A67}</ProjectGuid>
+    <ProjectGuid>{DA8DA700-A65D-41F7-AD72-485630E46335}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
@@ -96,7 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Osoba\Osoba.csproj">
-      <Project>{B67AEF3D-3B5B-488E-9894-F5721F98B230}</Project>
+      <Project>{26E495DB-B377-4C98-8DF5-600604256F2B}</Project>
       <Name>Osoba</Name>
     </ProjectReference>
   </ItemGroup>

@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{61ACD363-31B6-4592-BB7E-E55AA0D464B8}</ProjectGuid>
+    <ProjectGuid>{D97A03FE-06FF-4760-A24A-FFE590819B19}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -156,7 +156,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Osoba\Osoba.csproj">
-      <Project>{B67AEF3D-3B5B-488E-9894-F5721F98B230}</Project>
+      <Project>{26E495DB-B377-4C98-8DF5-600604256F2B}</Project>
       <Name>Osoba</Name>
     </ProjectReference>
   </ItemGroup>
