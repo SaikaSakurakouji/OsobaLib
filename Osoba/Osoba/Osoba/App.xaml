@@ -4,5 +4,7 @@
              x:Class="Osoba.App">
     <Application.Resources>
 
+        <!-- Application resource dictionary -->
+
     </Application.Resources>
 </Application>

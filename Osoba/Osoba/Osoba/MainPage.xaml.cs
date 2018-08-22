@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CocosSharp;
+using CocosDenshion;
 using Xamarin.Forms;
 
 namespace Osoba
@@ -12,6 +10,27 @@ namespace Osoba
         public MainPage()
         {
             InitializeComponent();
+            
+            GameScene gameScene = null;
+            
+           
+            var gameView = new CocosSharpView()
+            {
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                VerticalOptions = LayoutOptions.FillAndExpand,
+                ViewCreated = (sender, e) =>
+                {
+                    var ccgameView = sender as CCGameView;
+                    ccgameView.DesignResolution = new CCSizeI(100, 100);
+                    gameScene = new GameScene(ccgameView);
+                    ccgameView.RunWithScene(gameScene);
+                }
+            };
+            
+            MyGrid.Children.Add(gameView, 0, 0);
+            MoveLeftButton.Clicked += (sender, e) => gameScene.MoveCircleLeft();
+            MoveRightButton.Clicked += (sender, e) => gameScene.MoveCircleRight();
+            
         }
     }
 }
