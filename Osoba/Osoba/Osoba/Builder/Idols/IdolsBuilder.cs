@@ -6,18 +6,31 @@ using System.Threading.Tasks;
 
 namespace Osoba.Builder.Idols
 {
-    public interface IdolsBuilder
+    public abstract class IdolsBuilder
     {
-        void SetName();
-        void SetIdolCategoly();
-        void SetHead();
-        void SetTops();
-        void SetBottoms();
-        void SetShoes();
-        void SetAccessory();
-        void SetHp();
-        void SetMp();
-        void SetSp();
-        Idols GetIdol();
+#if WLIB
+        //aaaaaa
+#endif
+        protected Idols Idol { get; private set; } = new Idols();
+        abstract public void SetName();
+        abstract public void SetIdolCategoly();
+        abstract public void SetHead();
+        abstract public void SetTops();
+        abstract public void SetBottoms();
+        abstract public void SetShoes();
+        abstract public void SetAccessory();
+        abstract public void SetHp();
+        abstract public void SetMp();
+        abstract public void SetSp();
+
+        abstract public void SetLevel();
+        abstract public void SetStrength();
+        abstract public void SetIntelligence();
+        abstract public void SetWisdom();
+        abstract public void SetDexterity();
+        abstract public void SetCharisma();
+        abstract public void SetArmorClass();
+
+        abstract public Idols GetIdol();
     }
 }

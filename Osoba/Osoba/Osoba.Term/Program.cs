@@ -10,14 +10,20 @@ namespace Osoba.Term
     {
         static void Main(string[] args)
         {
-            IdolsDirector d1 = new IdolsDirector(new CoolIdolBuilder());
-            IdolsDirector d2 = new IdolsDirector(new CuteIdolBuilder());
-            Idols idol1 = d1.Construct();
-            Idols idol2 = d2.Construct();
+            IdolsDirector Director;
+            Director = new IdolsDirector(new CoolIdolBuilder());
+            Idols idol1 = Director.Construct();
+
+            Director = new IdolsDirector(new CuteIdolBuilder());
+            Idols idol2 = Director.Construct();
+
+            Director = new IdolsDirector(new CoolIdolBuilder());
+            Idols idol3 = Director.Construct();
 
 
-            Console.WriteLine(idol1.Name);
-            Console.WriteLine(idol2.Name);
+            Console.WriteLine(idol1.ToString());
+            Console.WriteLine(idol2.ToString());
+            Console.WriteLine(idol3.ToString());
 
             Console.Read();
         }

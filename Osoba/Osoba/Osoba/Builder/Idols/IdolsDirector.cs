@@ -16,6 +16,8 @@ namespace Osoba.Builder.Idols
         public Idols Construct()
         {
             this.builder.SetName();
+            this.builder.SetLevel();
+
             this.builder.SetIdolCategoly();
             this.builder.SetHead();
             this.builder.SetTops();
@@ -25,6 +27,14 @@ namespace Osoba.Builder.Idols
             this.builder.SetHp();
             this.builder.SetMp();
             this.builder.SetSp();
+
+            this.builder.SetStrength();
+            this.builder.SetIntelligence();
+            this.builder.SetWisdom();
+            this.builder.SetDexterity();
+            this.builder.SetCharisma();
+            this.builder.SetArmorClass();
+
             return this.builder.GetIdol();
         }
     }

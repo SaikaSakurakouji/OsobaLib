@@ -8,7 +8,8 @@ namespace Osoba.Builder.Idols
 {
     public enum IdolCategory
     {
+        None,
         Cool,
-        Cute,
+        Cute
     }
 }
