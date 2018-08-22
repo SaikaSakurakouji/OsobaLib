@@ -8,11 +8,6 @@ namespace Osoba.Builder.Idols
 {
     public class CuteIdolBuilder : IdolsBuilder
     {
-        public override Idols GetIdol()
-        {
-            return Idol;
-        }
-
         public override void SetAccessory()
         {
         }
@@ -42,7 +37,7 @@ namespace Osoba.Builder.Idols
             this.Idol.SetMp(20);
         }
 
-        public override void SetIdolCategoly()
+        public override void SetCategoly()
         {
             this.Idol.SetCategory(IdolCategory.Cute);
         }

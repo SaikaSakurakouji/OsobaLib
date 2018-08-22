@@ -18,7 +18,7 @@ namespace Osoba.Builder.Idols
             this.builder.SetName();
             this.builder.SetLevel();
 
-            this.builder.SetIdolCategoly();
+            this.builder.SetCategoly();
             this.builder.SetHead();
             this.builder.SetTops();
             this.builder.SetBottoms();

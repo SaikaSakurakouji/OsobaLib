@@ -47,8 +47,17 @@
     <Compile Include="Builder\Idols\Idols.cs" />
     <Compile Include="Builder\Idols\IdolsBuilder.cs" />
     <Compile Include="Builder\Idols\IdolsDirector.cs" />
+    <Compile Include="Builder\Venues\ConcertHallBuilder.cs" />
+    <Compile Include="Builder\Venues\LiveHouseBuilder.cs" />
+    <Compile Include="Builder\Venues\StreetBuilder.cs" />
+    <Compile Include="Builder\Venues\VacantLandBuilder.cs" />
+    <Compile Include="Builder\Venues\Venues.cs" />
+    <Compile Include="Builder\Venues\VenuesBuilder.cs" />
+    <Compile Include="Builder\Venues\VenuesCategory.cs" />
+    <Compile Include="Builder\Venues\VenuesDirector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

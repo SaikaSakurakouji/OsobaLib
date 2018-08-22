@@ -13,7 +13,7 @@ namespace Osoba.Builder.Idols
 #endif
         protected Idols Idol { get; private set; } = new Idols();
         abstract public void SetName();
-        abstract public void SetIdolCategoly();
+        abstract public void SetCategoly();
         abstract public void SetHead();
         abstract public void SetTops();
         abstract public void SetBottoms();
@@ -31,6 +31,6 @@ namespace Osoba.Builder.Idols
         abstract public void SetCharisma();
         abstract public void SetArmorClass();
 
-        abstract public Idols GetIdol();
+        public Idols GetIdol() { return Idol; }
     }
 }
