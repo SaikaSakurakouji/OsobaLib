@@ -1,30 +1,20 @@
-﻿using CocosSharp;
+﻿using System;
+using System.Reflection;
+using System.Collections.Generic;
+using CocosSharp;
 
 namespace Osoba
 {
     public class GameScene : CCScene
     {
-        private CCDrawNode circle;
-
         public GameScene(CCGameView gameView) : base(gameView)
         {
-            var layer = new CCLayer();
-            this.AddLayer(layer);
-            circle = new CCDrawNode();
-            layer.AddChild(circle);
-            circle.DrawCircle(new CCPoint(0, 0), radius: 15, color: CCColor4B.White);
-            circle.PositionX = 20;
-            circle.PositionY = 50;
-        }
-
-        public void MoveCircleLeft()
-        {
-            circle.PositionX -= 10;
-        }
-
-        public void MoveCircleRight()
-        {
-            circle.PositionX += 10;
+            base.AddedToScene();
+            GameView.Stats.Enabled = true;
+            
+            // このアセンブリのすべてのリソースIDを取得
+            var assembly = typeof(GameScene).GetTypeInfo().Assembly;
+            string[] FileNames = assembly.GetManifestResourceNames();
         }
     }
 }

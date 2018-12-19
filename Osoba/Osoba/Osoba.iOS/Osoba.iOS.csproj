@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D97A03FE-06FF-4760-A24A-FFE590819B19}</ProjectGuid>
+    <ProjectGuid>{71427C42-D2A3-43E7-8DDA-51F6E738C559}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -154,12 +154,15 @@
     <PackageReference Include="CocosSharp.Forms">
       <Version>1.7.1</Version>
     </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>11.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Osoba\Osoba.csproj">
-      <Project>{26E495DB-B377-4C98-8DF5-600604256F2B}</Project>
+      <Project>{DCB53562-82B4-423B-A7D7-C344A56395B3}</Project>
       <Name>Osoba</Name>
     </ProjectReference>
   </ItemGroup>

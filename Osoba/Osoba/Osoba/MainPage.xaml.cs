@@ -2,6 +2,7 @@
 using CocosSharp;
 using CocosDenshion;
 using Xamarin.Forms;
+using System.Collections.Generic;
 
 namespace Osoba
 {
@@ -10,10 +11,10 @@ namespace Osoba
         public MainPage()
         {
             InitializeComponent();
-            
+
+
             GameScene gameScene = null;
-            
-           
+            var contentSearchPaths = new List<string>() { "Fonts", "Sounds", "Images" };
             var gameView = new CocosSharpView()
             {
                 HorizontalOptions = LayoutOptions.FillAndExpand,
@@ -22,15 +23,16 @@ namespace Osoba
                 {
                     var ccgameView = sender as CCGameView;
                     ccgameView.DesignResolution = new CCSizeI(100, 100);
+                    ccgameView.ContentManager.SearchPaths = contentSearchPaths;
                     gameScene = new GameScene(ccgameView);
+
+                    gameScene.AddLayer(new GameLayer());
                     ccgameView.RunWithScene(gameScene);
                 }
             };
-            
+
             MyGrid.Children.Add(gameView, 0, 0);
-            MoveLeftButton.Clicked += (sender, e) => gameScene.MoveCircleLeft();
-            MoveRightButton.Clicked += (sender, e) => gameScene.MoveCircleRight();
-            
         }
+        
     }
 }
